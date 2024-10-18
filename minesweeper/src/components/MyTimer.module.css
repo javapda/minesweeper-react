@@ -1,0 +1,32 @@
+
+.toggleButton {
+    background-color: green;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.toggleButton {
+    margin-right: 0px;
+    width: 60px;
+    padding: 5px;
+    margin-bottom: 10px;;
+    border-radius: 15px;
+}
+.toggleButton:hover {
+    background-color: lightgreen;
+}
+
+.resetSmiley {
+    vertical-align: middle;
+    width: 20px;   
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.resetSmiley:hover {
+    background-color: green;
+    border-radius: 40px;
+    box-shadow: 2px 2px salmon,
+    -2px -2px salmon,
+    2px -2px salmon,
+    -2px 2px salmon,
+    2px 2px salmon;
+}

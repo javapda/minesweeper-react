@@ -1,0 +1,38 @@
+.flagCounter {
+    filter: grayscale(80%);
+    font-size: small;
+    display: inline;
+    margin-right: 50px;
+}
+
+.bombLogo {
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .bombLogo {
+        /* animation: bombLogoSpin infinite 20s linear; */
+    }
+}
+
+@keyframes bombLogoSpin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.controlPanel {
+    color: white;
+    border: medium solid indianred;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 5px 5px 5px indianred, -5px 5px 5px indianred;
+}
+
+.controlPanel {
+    width: 370px;
+}

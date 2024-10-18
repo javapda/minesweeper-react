@@ -1,0 +1,29 @@
+
+.shadowBox {
+    /* background-color: darkred; */
+    box-shadow: 5px 5px 15px lightseagreen;
+}
+
+.minesweeper {
+    padding: 10px;
+}
+
+.field {
+    color: white;
+    border: medium solid indianred;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 5px 5px 5px indianred, -5px 5px 5px indianred;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1px;
+    text-shadow: 3px 3px 3px gray;
+}
+
+.field {
+    width: 370px;
+}

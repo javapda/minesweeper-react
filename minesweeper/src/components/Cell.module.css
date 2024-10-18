@@ -1,0 +1,51 @@
+.cell {
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    min-height: 30px;
+    background-color: black;
+    margin: 3px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+    border: thick solid gray;
+}
+
+.cell:hover {
+    border: thick solid indianred;
+}
+
+.closed {
+    /* upper left and top */
+    border-top: thick solid white;
+    border-left: thick solid white;
+    border-right: thick solid gray;
+    border-bottom: thick solid gray;
+}
+
+.opened {
+    /* upper left and top */
+    /* box-shadow : -2px -2px white; */
+    border-top: thick solid darkolivegreen;
+    border-left: thick solid darkolivegreen;
+    border-right: thick solid beige;
+    border-bottom: thick solid beige;
+    background-color: gray;
+}
+
+.flagged {
+    border: thick solid lightgray;
+    background-image: url("./flag.svg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 30px 31px;
+}
+
+.fired {
+    border: thick solid lightgray;
+    background-image: url("./fired.svg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 30px 31px;
+    background-color: red;
+}
